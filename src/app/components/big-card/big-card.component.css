@@ -1,0 +1,35 @@
+.containerBigCard {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 25rem;
+    height: 30rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+.bigCard-Title > h1 > a{
+    color: black;
+    margin-top:0.7rem;
+    font-size: 1.2rem;
+    
+
+}
+
+
+.bigCard-Description {
+    margin-top: 0.7rem;
+}
+
+.bigCard-Description > p > a{
+margin-top:0.3rem;
+color: #070000;
+}
+
+.bigCard-Picture {
+    width: 100%;
+
+}
