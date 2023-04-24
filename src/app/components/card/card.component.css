@@ -1,0 +1,28 @@
+.containerCard {
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+.containerCardContent {
+    display: flex;
+    flex-direction: row;
+}
+.card-Picture > img {
+    width: 200px;
+    min-width: 200px;
+    margin-right: 20px;
+
+}
+
+.card-Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-Title > h1 > a {
+    color: black;
+}
+
+.containerCardSeparator {
+    margin-top: 10px;
+}

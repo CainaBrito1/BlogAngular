@@ -1,0 +1,16 @@
+.containerMenuBar {
+    margin-top: 15px;
+}
+
+.containerMenuBar > ul{
+    display: flex;
+    flex-direction: row;
+}
+.containerMenuBar > ul > li > a{
+    color: white;
+}
+.containerMenuBar > ul > li {
+    margin-right: 15px;
+    list-style: none;
+    font-weight: bold;
+}
