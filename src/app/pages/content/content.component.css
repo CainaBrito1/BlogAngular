@@ -1,0 +1,29 @@
+.containerContent {
+    
+    width: 100%;
+    height: 100%;
+
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.contentCover > img {
+    border: 5px solid black;
+    border-radius: 5px;
+    min-width: 500px;
+    width: 500px;
+    height: 300px;
+}
+
+.contentDescription {
+    margin-top: 10px;
+}
+
+.contentDescription > p{
+    margin-top: 10px;
+    color: white;
+}
